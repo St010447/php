@@ -68,7 +68,15 @@
 				點我
 				<img src="https://i.ytimg.com/vi/qNIhngowViI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcjxycKMWCOURGNSzH43GXZio9sw" alt="king">
 			</a>
-
+			<form action="sql.php" method="post">
+				<label>username
+					<input type="text" name="username">
+				</label>
+				<label>password
+					<input type="password" name="password">
+				</label>
+				<input type="submit" value="login">
+			</form>
 
 		</div>
 	</div>
